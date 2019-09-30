@@ -2,14 +2,10 @@
 
   @media @mobile {
     margin: 0 auto;
-    width: 460px;
-    background: pink;
+    width: 440px;
+    .mobileflex(center, center);
   }
 
-  // .welcome {
-  //   padding-top: 2%;
-  // }
- 
   .content-section {
     margin: 30px 0;
     display: flex;
@@ -20,7 +16,6 @@
       width: 48%;
       padding-right: 1%;
     }
-
 
     .img-content {
       width: 48%;
@@ -67,10 +62,11 @@
       margin-bottom: 30px;
     }
   }
+
+  .welcome {
+    // padding: 10px;
+    border-bottom: 2px dashed @navigation-border;
+  }
 }// home
 
 
-.container.home {
-  padding: 10px;
-  border-bottom: 2px dashed @navigation-border;
-}

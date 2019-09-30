@@ -169,22 +169,6 @@ img {
   width: 100%;
   margin: 0 auto;
 }
-@media (max-width: 500px) {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  a.nav {
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
-    margin: 0 auto;
-    padding-top: 3%;
-  }
-  img {
-    max-width: 100%;
-    height: auto;
-  }
-}
 .navigation {
   display: flex;
   justify-content: space-evenly;
@@ -215,9 +199,10 @@ a.nav {
     margin: 0 auto;
     width: 440px;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-right: 2%;
+    margin-left: 2%;
   }
 }
 .home .content-section {
@@ -267,5 +252,6 @@ a.nav {
   margin-bottom: 30px;
 }
 .home .welcome {
+  padding: 10px;
   border-bottom: 2px dashed #C0C0C0;
 }
